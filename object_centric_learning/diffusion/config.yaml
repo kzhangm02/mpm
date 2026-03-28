@@ -1,0 +1,10 @@
+learning_rate: 2.0e-4
+weight_decay: 0.0
+train_batch: 256
+val_batch: 256
+test_batch: 64
+num_workers: 4
+num_epochs: 10
+lr_schedule: [50, 150, 250, 350, 550, 750]
+data_path: 'path_to_tetrominoes_data'
+log_dir: 'path_to_logs/'
