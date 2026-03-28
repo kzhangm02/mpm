@@ -1,0 +1,12 @@
+diffusers==0.35.2
+huggingface-hub==0.34.4
+munch==4.0.0
+numpy==2.2.6
+pytorch-lightning==2.4.0
+PyYAML==6.0.2
+scipy==1.15.3
+tokenizers==0.19.1
+torch==2.7.1
+torchvision==0.22.1
+tqdm==4.66.5
+transformers==4.44.1
