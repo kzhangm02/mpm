@@ -1,0 +1,15 @@
+encoder: 'bert'
+slot_size: 256
+num_slots: 5
+num_iterations: 3
+num_slot_clusters: 100
+learning_rate: 1.0e-5
+weight_decay: 0.0
+train_batch: 16
+val_batch: 16
+test_batch: 4
+num_workers: 4
+num_epochs: 200
+lr_schedule: [50, 100]
+data_path: 'path_to_ap_news_data'
+log_dir: 'path_to_logs/'
